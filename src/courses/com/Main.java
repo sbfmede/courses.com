@@ -6,17 +6,18 @@ public class Main {
 
         int a=10;
         int b=23;
+        int c= 15;
         int res;
 
-        res=getSum (a,b);
+        res=getSum (a,b,c);
 
         System.out.println(res);
 
     }
 
-    static  int getSum ( int a, int b) {
+    static  int getSum ( int a, int b, int c) {
                 int res;
-                res= (a + b) * a;
+                res= (a + b) * a/c;
                 return res;
     }
 }
