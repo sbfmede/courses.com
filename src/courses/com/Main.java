@@ -6,6 +6,19 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int t=3;
+        System.out.println("Start");
+        if (t>5){
+            System.out.println(t >5);
+            t++;
+            System.out.println(t);
+        }
+        else {
+            System.out.println("t <= 5");
+                    t--;
+            System.out.println(t);
+        }
+        System.out.println("End");
 
         String name[]=new String[3];
         int[] arr = new int[10];
@@ -22,13 +35,11 @@ public class Main {
 
         System.out.println(arr[07]);
 
-        int[]mert ={12,35,76,98, 76, 90};
+        int[]mert ={12,35,76};
 
-        for (int i=0;i<6;i++) {
+        for (int i=0;i<3;i++) {
             System.out.println(mert[i]);
         }
-
-
 
         int a=10;
         int b=23;
@@ -44,9 +55,9 @@ public class Main {
         System.out.println(res);
 
 
-        int[] terr = new int[15];
+        int[] terr = new int[3];
 
-        for (int j = 0 ; j < 15; j++) {
+        for (int j = 0 ; j < 3; j++) {
             terr[j]= j * 2;
             System.out.println(terr[j]);
         }
@@ -57,7 +68,6 @@ public class Main {
         System.out.println(terr.length-1);
 
     }
-
 
     static  int getSum ( int a, int b, int c) {
                 int res;
