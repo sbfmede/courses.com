@@ -18,6 +18,6 @@ public class Main {
     static  int getSum ( int a, int b, int c) {
                 int res;
                 res= (a + b) * a/c;
-                return res;
+                return res; //just to learn about methods
     }
 }
