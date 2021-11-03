@@ -9,6 +9,10 @@ public class Main {
         int c= 15;
         int res;
 
+        a=34;
+        b=56;
+        c=6;
+
         res=getSum (a,b,c);
 
         System.out.println(res);
